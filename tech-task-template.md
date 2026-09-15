@@ -50,13 +50,13 @@
 
 ### 1.2. Исполнитель
 
-**ФИО:** [ЗАПОЛНИТЬ]
+**ФИО:** [Денисов Владимир Андреевич]
 
-**Telegram:** [ЗАПОЛНИТЬ]
+**Telegram:** [vdenisov_pro]
 
-**Gmail:** [ЗАПОЛНИТЬ]
+**Gmail:** [vdenisov.pro@gmail.com]
 
-**GitHub-login:** [ЗАПОЛНИТЬ]
+**GitHub-login:** [vdenisov-pro]
 
 ### 1.3. Тема
 
