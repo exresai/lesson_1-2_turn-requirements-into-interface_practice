@@ -5,15 +5,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Учебный проект по техническому заданию"
+      content="Учебное резюме frontend-разработчика Овсепьяна Давида Вартановича"
     />
-    <title>Учебный проект</title>
+    <title>3 желания</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
-    <main>
-      <h1>Учебный проект</h1>
-      <p>Стартовая версия страницы.</p>
+    <header class="site-header">
+      <div class="container header-inner">
+        <h3>У Кати есть 3 желания</h3>
+        <nav class="navigation" aria-label="Основная навигация">
+          <a href="#top">Главная</a>
+          <a href="#wishes">Желания</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top" class="container page-content">
+      <section class="hero block" aria-labelledby="hero-title">
+        <div class="hero-main">
+          <p class="eyebrow"></p>
+          <h1 id="hero-title">У Кати есть 3 желания</h1>
+          <p class="hero-text">
+            У всех людей есть мечты. У Кати тоже, причем аж 3 штуки.
+            Почему бы вам не посмотреть на них? Вдруг вы сможете помочь ей в их исполнении.
+
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#wishes">Посмотреть желания</a>
+          </div>
+        </div>
+
+        <div class="hero-summary" aria-hidden="true">
+          <p class="hero-emoji">🙏</p>
+        </div>
+      </section>
+
+      <!-- Секции ниже можно менять местами целиком. -->
+      <section id="wishes" class="block content-section" aria-labelledby="wishes-title">
+        <div class="section-heading">
+          
+            <h2 id="wishes-title">Желания</h2>
+          
+        </div>
+        <div class="item-list">
+          <article class="item-card experience-card">
+            <div class="item-meta">
+              
+              <p class="item-period">Желание 1</p>
+
+            </div>
+            <div class="item-content item-content--split">
+                <div class="item-content">
+                <h3>Работать тем, кем нравится</h3>
+                <p>
+                  Катя хочет заниматься CGI и созданием графики для игр.
+                  А в другой жизни с удовольствием стала бы врачом.
+               </p>
+
+              </div>
+              <img
+                class="item-photo"
+                src="laptop.png"
+                alt="Ноутбук"
+                width="480"
+                height="360"
+                loading="lazy"
+              />
+            
+            </div>
+          </article>
+        </div><div class="item-list">
+          <article class="item-card experience-card">
+            <div class="item-meta">
+              
+              <p class="item-period">Желание 2</p>
+              
+            </div>
+            <div class="item-content item-content--split">
+                <div class="item-content">
+                <h3>Знать много языков и жить за границей</h3>
+                <p>
+                  Катя хочет переехать в Италию для работы и жизни, а знание языков позволит ей легко перенести переезд. 
+                  Ну а после она сможет понтоваться этим крутым навыком
+                  
+               </p>
+
+              </div>
+              <img
+                class="item-photo"
+                src="Italy.png"
+                alt="Италия"
+                width="480"
+                height="360"
+                loading="lazy"
+              />
+            
+            </div>
+          </article>
+        </div>
+        <div class="item-list">
+          <article class="item-card experience-card">
+            <div class="item-meta">
+              
+              <p class="item-period">Желание 3</p>
+
+            </div>
+            <div class="item-content item-content--split">
+                <div class="item-content">
+                <h3>Иметь личного дракона</h3>
+                <p>
+                  Катя хочет себе крутого дракона из игры престолов. 
+                  Она бы летала на нем для развлечения и отдыха.
+               </p>
+
+              </div>
+              <img
+                class="item-photo"
+                src="dragon.png"
+                alt="Дракон"
+                width="480"
+                height="360"
+                loading="lazy"
+              />
+            
+            </div>
+          </article>
+        </div>
+      </section>
+
+
+
+      <section id="contacts" class="block contact-section" aria-labelledby="contacts-title">
+        <div>
+          <p class="eyebrow">Контакты</p>
+          <h2 id="contacts-title">Можете исполнить одно из желаний? Свяжитесь со мной!</h2>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:katekomarova001@gmail.com">katekomarova001@gmail.com</a>
+          <a href="#">t.me/chavy_saan</a>
+        </div>
+      </section>
     </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>3 желания Кати · 2026</p>
+      </div>
+    </footer>
   </body>
 </html>
